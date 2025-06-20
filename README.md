@@ -21,34 +21,39 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 
 ### 🚀 My Tech Stack
 
-A collection of technologies I'm proficient with:
-
+#### 🖥️ Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  
-  <br/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+</p>
+
+#### ⚙️ Frameworks & Libraries
+<p align="left">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/Gin-0076D6?style=for-the-badge&logo=go&logoColor=white" alt="Gin"/>
-  
-  <br/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+</p>
+
+#### 🛠️ Infrastructure & CI/CD
+<p align="left">
   <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  
-  <br/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+</p>
+
+#### 🗄️ Databases
+<p align="left">
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
 </p>
 
 ---
@@ -63,13 +68,11 @@ Here are some of the projects I'm passionate about.
 <details>
   <summary><strong>🤖 AI Code Review Assistant &nbsp; | &nbsp; Full-Stack AI Application</strong></summary>
   
-  <br>
-  
   A web application that leverages LLMs to provide automated code reviews, bug detection, and explanations for multiple programming languages.
   
   **Key Features:**
-  - Real-time code analysis via OpenAI GPT-4 API.
-  - Interactive frontend with syntax highlighting and code diffing.
+  - Real-time code analysis via OpenAI GPT-4 API.  
+  - Interactive frontend with syntax highlighting and code diffing.  
   - Scalable microservices architecture built for production.
 
   **Tech Stack:**
@@ -87,21 +90,18 @@ Here are some of the projects I'm passionate about.
   
   <p>
     <a href="YOUR_PROJECT_1_REPO_LINK" target="_blank">[View Code on GitHub]</a>
-    </p>
-
+  </p>
 </details>
 
 <details>
   <summary><strong>🔍 Scalable Image Similarity Search Engine &nbsp; | &nbsp; High-Performance Backend System</strong></summary>
   
-  <br>
-  
   A high-throughput backend system to find visually similar images within a dataset of over 1 million images, achieving sub-second P99 query latency.
-  
+
   **Key Features:**
-  - Employs OpenAI's CLIP model for high-quality feature extraction.
-  - Utilizes Milvus, a distributed vector database, for efficient nearest-neighbor search.
-  - Microservices architecture with a Go backend for low-latency querying and a Python service for ML inference.
+  - Employs OpenAI's CLIP model for high-quality feature extraction.  
+  - Utilizes Milvus, a distributed vector database, for efficient nearest-neighbor search.  
+  - Microservices architecture with a Go backend and a Python inference service.
 
   **Tech Stack:**
   <p>
@@ -115,11 +115,10 @@ Here are some of the projects I'm passionate about.
   </p>
   
   **Status:** `Planning & Prototyping`
-
+  
   <p>
     <a href="YOUR_PROJECT_2_REPO_LINK" target="_blank">[View Code on GitHub]</a>
   </p>
-
 </details>
 
 ---
