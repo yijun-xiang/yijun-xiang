@@ -9,6 +9,9 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
   <a href="https://www.linkedin.com/in/yijun-x-7287a1228" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <a href="https://orcid.org/0009-0000-5220-7781" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/>
+  </a>
   <a href="mailto:yijun.x@berkeley.edu">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
@@ -68,11 +71,13 @@ Here are some of the projects I'm passionate about.
 <details>
   <summary><strong>🤖 AI Code Review Assistant &nbsp; | &nbsp; Full-Stack AI Application</strong></summary>
   
+  <br>
+  
   A web application that leverages LLMs to provide automated code reviews, bug detection, and explanations for multiple programming languages.
   
   **Key Features:**
-  - Real-time code analysis via OpenAI GPT-4 API.  
-  - Interactive frontend with syntax highlighting and code diffing.  
+  - Real-time code analysis via OpenAI GPT-4 API.
+  - Interactive frontend with syntax highlighting and code diffing.
   - Scalable microservices architecture built for production.
 
   **Tech Stack:**
@@ -96,11 +101,13 @@ Here are some of the projects I'm passionate about.
 <details>
   <summary><strong>🔍 Scalable Image Similarity Search Engine &nbsp; | &nbsp; High-Performance Backend System</strong></summary>
   
+  <br>
+  
   A high-throughput backend system to find visually similar images within a dataset of over 1 million images, achieving sub-second P99 query latency.
 
   **Key Features:**
-  - Employs OpenAI's CLIP model for high-quality feature extraction.  
-  - Utilizes Milvus, a distributed vector database, for efficient nearest-neighbor search.  
+  - Employs OpenAI's CLIP model for high-quality feature extraction.
+  - Utilizes Milvus, a distributed vector database, for efficient nearest-neighbor search.
   - Microservices architecture with a Go backend and a Python inference service.
 
   **Tech Stack:**
