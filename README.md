@@ -7,7 +7,7 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 
 <p align="center">
   <a href="https://yijunxiang.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-yijunxiang.com-003262?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/yijunxiang.com-003262?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
   <a href="https://www.linkedin.com/in/yijun-x-7287a1228" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
