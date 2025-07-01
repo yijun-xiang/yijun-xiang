@@ -6,6 +6,9 @@
 I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and Applied Mathematics, passionate about architecting and building high-performance, AI-driven systems. I thrive on solving complex backend challenges and creating intuitive user experiences. Currently seeking a full-time Software Engineer role where I can contribute to impactful products.
 
 <p align="center">
+  <a href="https://yijunxiang.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-yijunxiang.com-003262?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/yijun-x-7287a1228" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
