@@ -61,24 +61,20 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 
 ---
 
-### 🔧 Pinned Projects
-
-Here are some of the projects I'm passionate about. 
-
-> [!NOTE]
-> These are ambitious projects currently under active development, designed to solve real-world engineering challenges.
+### 🔧 Featured Projects
 
 <details>
-  <summary><strong>🤖 AI Code Review Assistant &nbsp; | &nbsp; Full-Stack AI Application</strong></summary>
+  <summary><strong>🤖 AI Code Review Assistant &nbsp; | &nbsp; Production AI-Powered Development Tool</strong></summary>
   
   <br>
   
-  A web application that leverages LLMs to provide automated code reviews, bug detection, and explanations for multiple programming languages.
+  An intelligent web application leveraging OpenAI's GPT models to provide instant, comprehensive code reviews. Supports multi-language analysis with bug detection, security scanning, and performance optimization suggestions.
   
   **Key Features:**
-  - Real-time code analysis via OpenAI GPT-4 API.
-  - Interactive frontend with syntax highlighting and code diffing.
-  - Scalable microservices architecture built for production.
+  - Multi-language support (Python, JavaScript, TypeScript, Java, Go, Rust, C++)
+  - Real-time analysis with line-by-line suggestions and best practices adherence
+  - Monaco Editor (VS Code's editor) for beautiful syntax highlighting
+  - Scalable microservices on AWS ECS Fargate with auto-scaling
 
   **Tech Stack:**
   <p>
@@ -86,45 +82,61 @@ Here are some of the projects I'm passionate about.
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
     <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
   </p>
   
-  **Status:** `Actively Developing`
+  **Performance:** < 2s API response time | 99.9% uptime | Multi-AZ deployment
+  
+  **Status:** `✅ Completed`
   
   <p>
-    <a href="YOUR_PROJECT_1_REPO_LINK" target="_blank">[View Code on GitHub]</a>
+    <a href="https://github.com/yijun-xiang/ai-code-review-assistant" target="_blank">
+      <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="https://code.yijunxiang.com" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo"/>
+    </a>
   </p>
 </details>
 
 <details>
-  <summary><strong>🔍 Scalable Image Similarity Search Engine &nbsp; | &nbsp; High-Performance Backend System</strong></summary>
+  <summary><strong>🔍 Million-Scale Image Similarity Search Engine &nbsp; | &nbsp; Production ML System</strong></summary>
   
   <br>
   
-  A high-throughput backend system to find visually similar images within a dataset of over 1 million images, achieving sub-second P99 query latency.
+  A production-grade ML system demonstrating advanced MLOps and distributed systems design. Handles million-scale image similarity search with proven performance under 100+ concurrent users.
 
-  **Key Features:**
-  - Employs OpenAI's CLIP model for high-quality feature extraction.
-  - Utilizes Milvus, a distributed vector database, for efficient nearest-neighbor search.
-  - Microservices architecture with a Go backend and a Python inference service.
+  **Key Achievements:**
+  - **99.997% reliability** over 60,000 operations in production tests
+  - **15.81 ops/sec throughput** with P50 latency of 3.8s
+  - Successfully indexed and searched **30,000+ images** in production
+  - Multi-tier caching achieving **85%+ cache hit rate**
 
   **Tech Stack:**
   <p>
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC"/>
-    <img src="https://img.shields.io/badge/Milvus-42B29A?style=for-the-badge" alt="Milvus"/>
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+    <img src="https://img.shields.io/badge/Qdrant-FF5733?style=for-the-badge" alt="Qdrant"/>
     <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-    <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
+    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
   </p>
   
-  **Status:** `Planning & Prototyping`
+  **Architecture:** CLIP ViT-B/32 model | 3-shard Qdrant cluster | ECS Fargate + ALB | ElastiCache Redis
+  
+  **Status:** `✅ Completed`
   
   <p>
-    <a href="YOUR_PROJECT_2_REPO_LINK" target="_blank">[View Code on GitHub]</a>
+    <a href="https://github.com/yijun-xiang/image-similarity-engine" target="_blank">
+      <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="https://image-search.yijunxiang.com" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo"/>
+    </a>
   </p>
 </details>
 
