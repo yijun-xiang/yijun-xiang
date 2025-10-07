@@ -148,14 +148,7 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 ### 💻 LeetCode Progress
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/yijunxiang?theme=dark&font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode Stats"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=FDB515&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="LeetCode Solved"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=00C853&label=Easy&query=easySolved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="Easy"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=FB8C00&label=Medium&query=mediumSolved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="Medium"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=FF1744&label=Hard&query=hardSolved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="Hard"/>
+  <img src="https://leetcode.svg.ci/yijunxiang?theme=dark" alt="LeetCode Stats"/>
 </p>
 
 ---
