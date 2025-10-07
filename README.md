@@ -148,7 +148,8 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 ### 💻 LeetCode Progress
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/yijunxiang?theme=unicorn&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=yellow" alt="LeetCode Solved"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23c9190b&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=yellow" alt="LeetCode Ranking"/>
 </p>
 
 ---
