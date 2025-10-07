@@ -148,7 +148,7 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 ### 💻 LeetCode Progress
 
 <p align="center">
-  <img src="https://leetcode.svg.ci/yijunxiang?theme=dark" alt="LeetCode Stats"/>
+  <img src="https://leetcard.jacoblin.cool/yijunxiang?theme=wtf&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
 </p>
 
 ---
