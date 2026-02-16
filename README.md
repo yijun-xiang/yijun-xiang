@@ -12,14 +12,14 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
   <a href="https://www.linkedin.com/in/yijunxiang" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">
+    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/>
+  </a>
   <a href="https://orcid.org/0009-0000-5220-7781" target="_blank">
     <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/>
   </a>
   <a href="mailto:yijun.x@berkeley.edu">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="YOUR_RESUME_LINK" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-003262?style=for-the-badge&logo=googledocs&logoColor=white" alt="Resume"/>
   </a>
 </p>
 
@@ -68,11 +68,11 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 
 <details>
   <summary><strong>🤖 AI Code Review Assistant &nbsp; | &nbsp; Production AI-Powered Development Tool</strong></summary>
-  
+
   <br>
-  
+
   An intelligent web application leveraging OpenAI's GPT models to provide instant, comprehensive code reviews. Supports multi-language analysis with bug detection, security scanning, and performance optimization suggestions.
-  
+
   **Key Features:**
   - Multi-language support (Python, JavaScript, TypeScript, Java, Go, Rust, C++)
   - Real-time analysis with line-by-line suggestions and best practices adherence
@@ -89,11 +89,11 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
     <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
   </p>
-  
+
   **Performance:** < 2s API response time | 99.9% uptime | Multi-AZ deployment
-  
+
   **Status:** `✅ Completed`
-  
+
   <p>
     <a href="https://github.com/yijun-xiang/ai-code-review-assistant" target="_blank">
       <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -106,9 +106,9 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 
 <details>
   <summary><strong>🔍 Million-Scale Image Similarity Search Engine &nbsp; | &nbsp; Production ML System</strong></summary>
-  
+
   <br>
-  
+
   A production-grade ML system demonstrating advanced MLOps and distributed systems design. Handles million-scale image similarity search with proven performance under 100+ concurrent users.
 
   **Key Achievements:**
@@ -128,11 +128,11 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
   </p>
-  
+
   **Architecture:** CLIP ViT-B/32 model | 3-shard Qdrant cluster | ECS Fargate + ALB | ElastiCache Redis
-  
+
   **Status:** `✅ Completed`
-  
+
   <p>
     <a href="https://github.com/yijun-xiang/image-similarity-engine" target="_blank">
       <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -150,13 +150,4 @@ I'm a recent graduate from **UC Berkeley** with a degree in Computer Science and
 <p align="center">
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=FDB515&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="LeetCode Solved"/>
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=003262&color=FDB515&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fyijunxiang&logo=leetcode&logoColor=white" alt="LeetCode Ranking"/>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yijun-xiang&show_icons=true&theme=berkeley&border_radius=10&text_color=003262&icon_color=003262" alt="GitHub Stats" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yijun-xiang&layout=compact&theme=berkeley&border_radius=10&text_color=003262&icon_color=003262" alt="Top Languages" />
 </p>
