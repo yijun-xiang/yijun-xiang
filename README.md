@@ -12,7 +12,7 @@ Recent **UC Berkeley** CS & Applied Math graduate. I build distributed systems, 
   <a href="https://www.linkedin.com/in/yijunxiang" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">
+  <a href="https://scholar.google.com/citations?user=QBDwDGgAAAAJ&hl=en" target="_blank">
     <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/>
   </a>
   <a href="mailto:yijun.x@berkeley.edu">
@@ -70,7 +70,7 @@ Recent **UC Berkeley** CS & Applied Math graduate. I build distributed systems, 
 </details>
 
 <details>
-<summary><b>Code Review Service</b> — LLM-powered code analysis with real-time feedback</summary>
+<summary><b>Code Review Service</b> — Automated code analysis with real-time feedback</summary>
 <br>
 
 - Architected microservices backend with sub-2s response times and 99.9% uptime
