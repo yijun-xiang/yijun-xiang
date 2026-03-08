@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm Yijun Xiang 👋</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&duration=4000&color=003262&center=true&vCenter=true&width=550&lines=UC+Berkeley+CS+%26+Applied+Math;Software+Engineer;Distributed+Systems+%7C+ML+Infrastructure" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&duration=4000&color=003262&center=true&vCenter=true&width=550&lines=UC+Berkeley+CS+%26+Applied+Math;Software+Engineer; Distributed+Systems+%7C+ML+Infrastructure" alt="Typing SVG">
 </p>
 
 Recent **UC Berkeley** CS & Applied Math graduate. I build distributed systems, ML infrastructure, and backend services at scale. Passionate about system design, performance optimization, and shipping reliable software.
