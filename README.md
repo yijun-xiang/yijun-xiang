@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm Yijun Xiang 👋</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&duration=4000&color=003262&center=true&vCenter=true&width=550&lines=UC+Berkeley+CS+%26+Applied+Math;Software+Engineer;Distributed+Systems+%7C+ML+Infrastructure" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&duration=4000&color=003262&center=true&vCenter=true&width=550&lines=UC+Berkeley+CS+%26+Applied+Math;Software+Engineer;Backend+%26+ML+Infrastructure" alt="Typing SVG">
 </p>
 
 Recent **UC Berkeley** CS & Applied Math graduate. I build distributed systems, ML infrastructure, and backend services at scale. Passionate about system design, performance optimization, and shipping reliable software.
@@ -56,6 +56,19 @@ Recent **UC Berkeley** CS & Applied Math graduate. I build distributed systems, 
 ---
 
 ### Featured Work
+
+<details>
+<summary><b>Enterprise Retail Platform</b> — Event-driven microservices for multi-store retail operations</summary>
+<br>
+
+- 6 Spring Boot microservices with Eureka discovery, Spring Cloud Gateway, and Kafka event bus
+- Saga orchestration for order creation with compensation rollback; 12-state order state machine
+- Redis distributed locks (SETNX + Lua atomic unlock) to prevent inventory overselling
+- Cache-aside with scheduled warming, JWT auth with 4-tier RBAC, 113 unit tests
+
+`Java 17` `Spring Boot 3` `Spring Cloud` `Kafka` `Redis` `PostgreSQL` `Cassandra` `Docker`
+
+</details>
 
 <details>
 <summary><b>Image Similarity Search Engine</b> — Distributed ML system for million-scale vector search</summary>
