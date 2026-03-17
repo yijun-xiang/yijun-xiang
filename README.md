@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&duration=4000&color=003262&center=true&vCenter=true&width=550&lines=UC+Berkeley+CS+%26+Applied+Math;Software+Engineer;Backend+%26+ML+Infrastructure" alt="Typing SVG">
 </p>
 
-**UC Berkeley** CS & Applied Math. I build distributed systems, ML infrastructure, and backend services at scale. Passionate about system design, performance optimization, and shipping reliable software.
+I build distributed systems, ML infrastructure, and backend services at scale. Passionate about system design, performance optimization, and shipping reliable software.
 
 <p align="center">
   <a href="https://yijunxiang.com" target="_blank">
