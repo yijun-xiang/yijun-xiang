@@ -1,6 +1,8 @@
-## Yijun Xiang
+<img src="assets/header.svg" width="100%" alt="Yijun Xiang">
 
-CS & Applied Math, UC Berkeley. Distributed systems, ML infrastructure, and backend services.
+&nbsp;
+
+CS & Applied Math, UC Berkeley. I build distributed systems, ML infrastructure, and backend services at scale.
 
 [yijunxiang.com](https://yijunxiang.com) · [LinkedIn](https://www.linkedin.com/in/yijunxiang) · [Google Scholar](https://scholar.google.com/citations?user=jiM91eYAAAAJ&hl=en)
 
