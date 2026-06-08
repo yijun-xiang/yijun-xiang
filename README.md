@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  I build distributed systems, ML infrastructure, and backend services at scale.
-</p>
-
-<p align="center">
   <a href="https://yijunxiang.com"><img src="https://img.shields.io/badge/Website-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/yijunxiang"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://scholar.google.com/citations?user=jiM91eYAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
@@ -46,8 +42,25 @@
 
 ### Featured Work
 
+**Enterprise Retail Platform** — event-driven microservices for multi-store retail.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
+flowchart LR
+  C([Client]) --> GW[Spring Cloud Gateway]
+  GW --> OS[Order Service]
+  GW --> IS[Inventory Service]
+  OS -->|publish| KB[(Kafka Event Bus)]
+  KB --> SG{Saga Orchestrator}
+  SG -->|reserve| IS
+  SG -->|charge| PS[Payment Service]
+  SG -.->|compensate| OS
+  IS --> RL[(Redis Locks)]
+  OS --> DB[(PostgreSQL)]
+```
+
 <details>
-<summary><b>Enterprise Retail Platform</b> — event-driven microservices for multi-store retail</summary>
+<summary><b>Details</b></summary>
 <br>
 
 - 6 Spring Boot services with Eureka discovery, Spring Cloud Gateway, and a Kafka event bus
