@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=UC+Berkeley+CS+%26+Applied+Math;Backend+%26+Distributed+Systems;ML+Infrastructure+at+Scale" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=UC+Berkeley+CS+%26+Applied+Math;Backend+%26+Distributed+Systems;ML+Infrastructure+at+Scale" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -41,6 +41,9 @@
 ### Featured Work
 
 **Enterprise Retail Platform** — event-driven microservices for multi-store retail.
+<details>
+<summary><b>Architecture & details</b></summary>
+<br>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
@@ -57,10 +60,6 @@ flowchart LR
   OS --> DB[(PostgreSQL)]
 ```
 
-<details>
-<summary><b>Details</b></summary>
-<br>
-
 - 6 Spring Boot services with Eureka discovery, Spring Cloud Gateway, and a Kafka event bus
 - Saga orchestration for order creation with compensating rollback; 12-state order state machine
 - Redis distributed locks (SETNX + Lua atomic unlock) to prevent inventory overselling
@@ -71,6 +70,9 @@ flowchart LR
 </details>
 
 **Image Similarity Search** — distributed vector search at million scale.
+<details>
+<summary><b>Architecture & details</b></summary>
+<br>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
@@ -85,10 +87,6 @@ flowchart LR
   RT --> S3[(Qdrant Shard 3)]
 ```
 
-<details>
-<summary><b>Details</b></summary>
-<br>
-
 - End-to-end ML pipeline with CLIP embeddings over a 30K+ image corpus
 - 3-shard Qdrant cluster on ECS Fargate with multi-tier Redis caching (85%+ hit rate)
 - Sustained throughput under 100+ concurrent users
@@ -98,6 +96,9 @@ flowchart LR
 </details>
 
 **Code Review Service** — automated code analysis with streaming feedback.
+<details>
+<summary><b>Architecture & details</b></summary>
+<br>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
@@ -109,10 +110,6 @@ flowchart LR
   W --> AZ1[(Fargate AZ-1)]
   W --> AZ2[(Fargate AZ-2)]
 ```
-
-<details>
-<summary><b>Details</b></summary>
-<br>
 
 - Microservices backend with streaming responses, rate limiting, and 7-language support
 - Deployed on ECS Fargate with auto-scaling and multi-AZ redundancy
