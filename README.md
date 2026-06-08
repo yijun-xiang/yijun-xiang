@@ -1,7 +1,5 @@
-<h1 align="center">Yijun Xiang</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=UC+Berkeley+CS+%26+Applied+Math;Backend+%26+Distributed+Systems;ML+Infrastructure+at+Scale" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=UC+Berkeley+CS+%26+Applied+Math;Backend+%26+Distributed+Systems;ML+Infrastructure+at+Scale" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -72,8 +70,23 @@ flowchart LR
 
 </details>
 
+**Image Similarity Search** — distributed vector search at million scale.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
+flowchart LR
+  Q([Image Query]) --> API[FastAPI]
+  API --> RC[(Redis Cache)]
+  RC -.->|hit| API
+  RC -->|miss| CLIP[CLIP Encoder]
+  CLIP --> RT{Shard Router}
+  RT --> S1[(Qdrant Shard 1)]
+  RT --> S2[(Qdrant Shard 2)]
+  RT --> S3[(Qdrant Shard 3)]
+```
+
 <details>
-<summary><b>Image Similarity Search</b> — distributed vector search at million scale</summary>
+<summary><b>Details</b></summary>
 <br>
 
 - End-to-end ML pipeline with CLIP embeddings over a 30K+ image corpus
@@ -84,8 +97,21 @@ flowchart LR
 
 </details>
 
+**Code Review Service** — automated code analysis with streaming feedback.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#122B45','primaryTextColor':'#cfe8ff','primaryBorderColor':'#1F6FEB','lineColor':'#58A6FF','fontFamily':'monospace','fontSize':'14px'}}}%%
+flowchart LR
+  C([Client]) --> FE[Next.js]
+  FE --> GW[API Gateway]
+  GW --> RLm[Rate Limiter]
+  GW -->|stream| W[Analysis Workers]
+  W --> AZ1[(Fargate AZ-1)]
+  W --> AZ2[(Fargate AZ-2)]
+```
+
 <details>
-<summary><b>Code Review Service</b> — automated code analysis with streaming feedback</summary>
+<summary><b>Details</b></summary>
 <br>
 
 - Microservices backend with streaming responses, rate limiting, and 7-language support
