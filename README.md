@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="720" alt="Yijun Xiang">
+  <img src="assets/header-light.svg" width="720" height="140" alt="Yijun Xiang">
 </picture>
 
 <a href="https://yijunxiang.com" title="Website"><img src="https://api.iconify.design/mdi/web.svg?color=%238b949e&width=24&height=24" alt="Website"></a>
@@ -13,17 +13,15 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:yijun.x.me@gmail.com" title="Email"><img src="https://api.iconify.design/mdi/email-outline.svg?color=%238b949e&width=24&height=24" alt="Email"></a>
 
-<br>
-
 </div>
 
-<sub><b>PAPERS</b></sub>
+### Papers
 
-[AI and Measurement Concerns: Dealing with Imbalanced Data in Autoscoring](https://onlinelibrary.wiley.com/doi/10.1111/jedm.70031)<br>
+**[AI and Measurement Concerns: Dealing with Imbalanced Data in Autoscoring](https://onlinelibrary.wiley.com/doi/10.1111/jedm.70031)**<br>
 <sub>Liu, <b>Xiang</b>, Feng, Wilson &nbsp;·&nbsp; <i>Journal of Educational Measurement</i>, 2026</sub>
 
 <!--
-<sub><b>OPEN SOURCE</b></sub>
+### Open source
 
 [项目名](链接)<br><sub>合并了什么 · 年份</sub>
 -->
