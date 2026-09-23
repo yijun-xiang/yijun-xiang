@@ -13,7 +13,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:yijun.x.me@gmail.com" title="Email"><img src="https://api.iconify.design/mdi/email-outline.svg?color=%238b949e&width=24&height=24" alt="Email"></a>
 
-<br><br><br>
+<br><br>
 
 <sub><b>PAPERS</b></sub>
 
