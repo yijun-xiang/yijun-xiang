@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-2.svg">
-  <img src="assets/header-light-2.svg" width="720" height="140" alt="Yijun Xiang">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-3.svg">
+  <img src="assets/header-light-3.svg" width="720" height="140" alt="Yijun Xiang">
 </picture>
 
 <a href="https://yijunxiang.com" title="Website"><img src="https://api.iconify.design/mdi/web.svg?color=%238b949e&width=24&height=24" alt="Website"></a>
