@@ -13,19 +13,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:yijun.x.me@gmail.com" title="Email"><img src="https://api.iconify.design/mdi/email-outline.svg?color=%238b949e&width=24&height=24" alt="Email"></a>
 
-<br><br>
+<br>
+
+</div>
 
 <sub><b>PAPERS</b></sub>
 
 [AI and Measurement Concerns: Dealing with Imbalanced Data in Autoscoring](https://onlinelibrary.wiley.com/doi/10.1111/jedm.70031)<br>
 <sub>Liu, <b>Xiang</b>, Feng, Wilson &nbsp;·&nbsp; <i>Journal of Educational Measurement</i>, 2026</sub>
 
-<br>
-
 <!--
 <sub><b>OPEN SOURCE</b></sub>
 
 [项目名](链接)<br><sub>合并了什么 · 年份</sub>
 -->
-
-</div>
